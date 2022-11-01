@@ -16,6 +16,11 @@
 </head>
 <body>
 
+<!-- vuejs is not understood by where it is not mounted | initialized -->
+<div id="article"></div>
+
+
+<!-- vuejs is only understood by this tag where it is initlaized -->
 <div id="app">
     <p><input type="text" v-model="greeting"></p>
     <p>{{ greeting }} {{ greeting.length }}</p>
